@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b93cfb3-1756-4372-81fa-6eb04e08e50f" name="Changes" comment="add h2 to kt module">
-      <change afterPath="$PROJECT_DIR$/boki-spring-batch-kt/src/main/kotlin/boki/bokispringbatchkt/HelloJobConfiguration.kt" afterDir="false" />
+    <list default="true" id="1b93cfb3-1756-4372-81fa-6eb04e08e50f" name="Changes" comment="add sample step to kt">
+      <change afterPath="$PROJECT_DIR$/boki-spring-batch-java/src/main/java/com/boki/bokispringbatch/DBJobConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boki-spring-batch-kt/src/main/kotlin/boki/bokispringbatchkt/BokiSpringBatchKtApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/boki-spring-batch-kt/src/main/kotlin/boki/bokispringbatchkt/BokiSpringBatchKtApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boki-spring-batch-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boki-spring-batch-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boki-spring-batch-java/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boki-spring-batch-java/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,6 +84,9 @@
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -146,7 +152,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BokiSpringBatchKtApplication">
+  <component name="RunManager" selected="Spring Boot.BokiSpringBatchApplication">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="boki-spring-batch-2-java" />
       <working_directory value="$PROJECT_DIR$/boki-spring-batch-java" />
@@ -180,8 +186,19 @@
       </method>
     </configuration>
     <configuration name="BokiSpringBatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="mysql" />
       <module name="boki-spring-batch-2-java" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.boki.bokispringbatch.BokiSpringBatchApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,10 +206,24 @@
     <configuration name="BokiSpringBatchKtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="boki-spring-batch-kt.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="boki.bokispringbatchkt.BokiSpringBatchKtApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.BokiSpringBatchApplication" />
+      <item itemvalue="Spring Boot.BokiSpringBatchKtApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -212,7 +243,7 @@
       <workItem from="1724777990867" duration="1641000" />
       <workItem from="1724779899417" duration="34000" />
       <workItem from="1724779948763" duration="89000" />
-      <workItem from="1724780056002" duration="1475000" />
+      <workItem from="1724780056002" duration="2643000" />
     </task>
     <task id="LOCAL-00001" summary="change file ext properties to yml and">
       <option name="closed" value="true" />
@@ -262,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724780684890</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add sample step to kt">
+      <option name="closed" value="true" />
+      <created>1724781550969</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724781550969</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +327,8 @@
     <MESSAGE value="move spring2 java batch module" />
     <MESSAGE value="add spring3 kt batch module" />
     <MESSAGE value="add h2 to kt module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add h2 to kt module" />
+    <MESSAGE value="add sample step to kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sample step to kt" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
