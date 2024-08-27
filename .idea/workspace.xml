@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b93cfb3-1756-4372-81fa-6eb04e08e50f" name="Changes" comment="enable batch processing and add h2 db">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/boki-spring-batch-java/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boki-spring-batch-java/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/boki/bokispringbatch/BokiSpringBatchApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/boki/bokispringbatch/HelloJobConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/boki/bokispringbatch/BokiSpringBatchApplicationTests.java" beforeDir="false" />
+    <list default="true" id="1b93cfb3-1756-4372-81fa-6eb04e08e50f" name="Changes" comment="add spring3 kt batch module">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boki-spring-batch-kt/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/boki-spring-batch-kt/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boki-spring-batch-kt/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boki-spring-batch-kt/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +65,13 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
+  <component name="GoVcsConfiguration">
+    <option name="GO_FMT" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="c4ju6q3c" />
   </component>
@@ -101,7 +103,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "Spring Boot.BokiSpringBatchApplication.executor": "Run",
     "Spring Boot.BokiSpringBatchKtApplication.executor": "Run",
     "git-widget-placeholder": "main",
@@ -134,6 +137,13 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/boki-spring-batch-java" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BokiSpringBatchKtApplication">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -201,7 +211,7 @@
       <workItem from="1724777990867" duration="1641000" />
       <workItem from="1724779899417" duration="34000" />
       <workItem from="1724779948763" duration="89000" />
-      <workItem from="1724780056002" duration="224000" />
+      <workItem from="1724780056002" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="change file ext properties to yml and">
       <option name="closed" value="true" />
@@ -227,7 +237,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719376012828</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="move spring2 java batch module">
+      <option name="closed" value="true" />
+      <created>1724780371198</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724780371198</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add spring3 kt batch module">
+      <option name="closed" value="true" />
+      <created>1724780383057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724780383057</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,10 +271,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="change file ext properties to yml and" />
     <MESSAGE value="change spring and java version to sync course" />
     <MESSAGE value="enable batch processing and add h2 db" />
-    <option name="LAST_COMMIT_MESSAGE" value="enable batch processing and add h2 db" />
+    <MESSAGE value="move spring2 java batch module" />
+    <MESSAGE value="add spring3 kt batch module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add spring3 kt batch module" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
