@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.boki</groupId>
-    <artifactId>boki-spring-batch</artifactId>
+    <artifactId>boki-spring-batch-2-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>boki-spring-batch</name>
-    <description>boki-spring-batch</description>
+    <name>boki-spring-batch-2-java</name>
+    <description>boki-spring-batch-2-java</description>
     <url/>
     <licenses>
         <license/>
