@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b93cfb3-1756-4372-81fa-6eb04e08e50f" name="Changes" comment="add spring3 kt batch module">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="1b93cfb3-1756-4372-81fa-6eb04e08e50f" name="Changes" comment="add h2 to kt module">
+      <change afterPath="$PROJECT_DIR$/boki-spring-batch-kt/src/main/kotlin/boki/bokispringbatchkt/HelloJobConfiguration.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boki-spring-batch-kt/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/boki-spring-batch-kt/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boki-spring-batch-kt/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boki-spring-batch-kt/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boki-spring-batch-kt/src/main/kotlin/boki/bokispringbatchkt/BokiSpringBatchKtApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/boki-spring-batch-kt/src/main/kotlin/boki/bokispringbatchkt/BokiSpringBatchKtApplication.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -96,6 +96,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build boki-spring-batch-kt.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -211,7 +212,7 @@
       <workItem from="1724777990867" duration="1641000" />
       <workItem from="1724779899417" duration="34000" />
       <workItem from="1724779948763" duration="89000" />
-      <workItem from="1724780056002" duration="602000" />
+      <workItem from="1724780056002" duration="1475000" />
     </task>
     <task id="LOCAL-00001" summary="change file ext properties to yml and">
       <option name="closed" value="true" />
@@ -253,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724780383057</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add h2 to kt module">
+      <option name="closed" value="true" />
+      <created>1724780684890</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724780684890</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +287,8 @@
     <MESSAGE value="enable batch processing and add h2 db" />
     <MESSAGE value="move spring2 java batch module" />
     <MESSAGE value="add spring3 kt batch module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add spring3 kt batch module" />
+    <MESSAGE value="add h2 to kt module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add h2 to kt module" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
