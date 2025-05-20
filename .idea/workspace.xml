@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b93cfb3-1756-4372-81fa-6eb04e08e50f" name="Changes" comment="add mysql and divide run env">
-      <change afterPath="$PROJECT_DIR$/boki-spring-batch-java/src/main/java/com/boki/bokispringbatch/JobConfiguration.java" afterDir="false" />
+    <list default="true" id="1b93cfb3-1756-4372-81fa-6eb04e08e50f" name="Changes" comment="작업중">
+      <change afterPath="$PROJECT_DIR$/.idea/boki-spring-batch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kill-batch-system/src/main/java/com/boki/batch/killbatchsystem/SystemTerminationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/69b5076e-3bc5-40a2-bf4f-40fb0afb4712.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/69b5076e-3bc5-40a2-bf4f-40fb0afb4712.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +30,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/boki-spring-batch-kt">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/kill-batch-system">
       <ProjectState />
     </projectState>
   </component>
@@ -61,6 +71,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -80,10 +91,10 @@
   <component name="GoVcsConfiguration">
     <option name="GO_FMT" value="false" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="c4ju6q3c" />
   </component>
@@ -101,7 +112,7 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2iKewXCQQmLWGGmJBJTnA5ytumD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -111,21 +122,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build boki-spring-batch-kt.executor": "Run",
+    "Gradle.Build kill-batch-system.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "Spring Boot.BokiSpringBatchApplication.executor": "Debug",
     "Spring Boot.BokiSpringBatchKtApplication.executor": "Run",
+    "Spring Boot.KillBatchSystemApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "corretto-21",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/boki/IdeaProjects/boki-spring-batch",
     "node.js.detected.package.eslint": "true",
@@ -137,15 +152,13 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gant",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "mysql"
-    ],
-    "kotlin-gradle-user-dirs": [
-      "/Users/boki/.gradle"
     ]
   }
 }]]></component>
@@ -157,16 +170,19 @@
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="GoApplicationRunConfiguration" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BokiSpringBatchApplication">
+  <component name="RunManager" selected="Spring Boot.KillBatchSystemApplication">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="boki-spring-batch-2-java" />
       <working_directory value="$PROJECT_DIR$/boki-spring-batch-java" />
       <go_parameters value="-i" />
-      <kind />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$/boki-spring-batch-java" />
       <filePath value="$PROJECT_DIR$/boki-spring-batch-java" />
       <method v="2" />
@@ -175,7 +191,7 @@
       <module name="boki-spring-batch-2-java" />
       <working_directory value="$PROJECT_DIR$/boki-spring-batch-java" />
       <go_parameters value="-i" />
-      <kind />
+      <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$/boki-spring-batch-java" />
       <filePath value="$PROJECT_DIR$/boki-spring-batch-java" />
       <framework value="gotest" />
@@ -229,10 +245,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KillBatchSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kill-batch-system.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.boki.batch.killbatchsystem.KillBatchSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.KillBatchSystemApplication" />
       <item itemvalue="Spring Boot.BokiSpringBatchApplication" />
       <item itemvalue="Spring Boot.BokiSpringBatchKtApplication" />
     </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -252,7 +284,8 @@
       <workItem from="1724777990867" duration="1641000" />
       <workItem from="1724779899417" duration="34000" />
       <workItem from="1724779948763" duration="89000" />
-      <workItem from="1724780056002" duration="16037000" />
+      <workItem from="1724780056002" duration="16086000" />
+      <workItem from="1747763660909" duration="1110000" />
     </task>
     <task id="LOCAL-00001" summary="change file ext properties to yml and">
       <option name="closed" value="true" />
@@ -318,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724782757189</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="작업중">
+      <option name="closed" value="true" />
+      <created>1725494779734</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725494779734</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +387,8 @@
     <MESSAGE value="add h2 to kt module" />
     <MESSAGE value="add sample step to kt" />
     <MESSAGE value="add mysql and divide run env" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mysql and divide run env" />
+    <MESSAGE value="작업중" />
+    <option name="LAST_COMMIT_MESSAGE" value="작업중" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

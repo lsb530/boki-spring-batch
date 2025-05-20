@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/boki-spring-batch-3-kt" />
     <file type="web" url="file://$PROJECT_DIR$/boki-spring-batch-kt" />
+    <file type="web" url="file://$PROJECT_DIR$/kill-batch-system" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

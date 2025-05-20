@@ -18,6 +18,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="boki-spring-batch" options="-parameters" />
       <module name="boki-spring-batch-2-java" options="-parameters" />
+      <module name="boki-spring-batch-kt" options="-parameters" />
+      <module name="boki-spring-batch-kt.main" options="-parameters" />
+      <module name="boki-spring-batch-kt.test" options="-parameters" />
+      <module name="kill-batch-system" options="-parameters" />
+      <module name="kill-batch-system.main" options="-parameters" />
+      <module name="kill-batch-system.test" options="-parameters" />
     </option>
   </component>
 </project>
