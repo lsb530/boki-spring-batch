@@ -1,4 +1,4 @@
-package com.boki.batch.killbatchsystem;
+package com.boki.batch.killbatchsystem.config;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
