@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:example_batch;MODE=MYSQL;DB_CLOSE_DELAY=-1;DATABASE_TO_LOWER=TRUE
+    username: sa
+    password:
+
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data-h2.sql
+
+#  batch:
+#    jdbc:
+#      initialize-schema: embedded # default
+
+logging:
+  level:
+    root: info
+    com.boki.batch.killbatchsystem: debug
+    org.springframework.boot.autoconfigure.sql.init: debug
+    org.springframework.jdbc.datasource.init.ScriptUtils: debug
