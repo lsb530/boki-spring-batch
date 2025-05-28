@@ -19,6 +19,8 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-batch'
+	// JSON 형태의 Job Parameter를 인식하게 하려면 필요
+	implementation 'org.springframework.boot:spring-boot-starter-json'
 	implementation 'org.projectlombok:lombok'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
 	annotationProcessor 'org.projectlombok:lombok'
